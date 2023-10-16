@@ -1,0 +1,12 @@
+PyTerm Yazılımını Nasıl Kurarım?: (Not: Program Sadece Linux İçindir)
+
+Adımlar:
+
+1. dosya dizininde Terminali açınız Ve ardından chmod a+x installpytrm.sh komutunu kullanınız.
+2. ./installpytrm.sh yazıp dosyayı çalıştırınız. Bu dosya "PyTerm" Yazılımını Çalıştırabilmeniz için pytrm adlı yazılımı yükler.
+
+Çalıştırmak İçin:
+
+1. Terminali açınız.
+2. pytrm yazınız ve işletim sistemini Giriniz.
+3. Ardından Yazılım Çalıştırılcaktır. (Not: Şuan Yazılım Önizleme Aşamasındadır Ve Sadece TR Sürümüdür.)
