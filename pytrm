@@ -10,8 +10,7 @@ operating_system=str(input('Enter Your Operating System (Windows/Linux/macOS): '
 
 if operating_system=="Linux" or operating_system=="linux" or operating_system=="MacOS" or operating_system=="macOS":
     os.system("sudo su")
-    os.system("clear")
-    os.system("/LxProgram/PyTerm/pyterm")
+    os.system("/LxProgram/PyTerm/PyTerm")
 elif operating_system=="Windows":
     os.system("cls")
-    os.system("C:\LxProgram\PyTerm\pyterm")
+    os.system("C:\LxProgram\PyTerm\PyTerm")

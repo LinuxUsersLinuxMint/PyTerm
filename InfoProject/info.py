@@ -6,14 +6,10 @@
 # A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 global name,ver,ver_type,about,hlp,author,authorwebsite
 name,ver,ver_type,about,hlp,author,authorwebsite=str(),str(),str(),str(),str(),str(),str()
-
-
-py_term_info=dict({
-    "PyTerm":name,
-    "1.0":ver,
-    "BETA":ver_type,
-    "PyTerm 1.0 Beta By LinuxUsersLinuxMint":about,
-    "PyTerm Help Directory: /Help/*.*":hlp,
-    "LinuxUsersLinuxMint":author,
-    "linuxuserslinuxmint.github.io":authorwebsite
-})
+name="PyTerm"
+ver="1.0"
+ver_type="BETA_1"
+about="PyTerm 1.0 Beta By LinuxUsersLinuxMint"
+hlp="/Help/*.*"
+author="LinuxUsersLinuxMint"
+authorwebsite="linuxuserslinuxmint.github.io"

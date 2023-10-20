@@ -11,9 +11,10 @@ from File.FileMng.FileList.filelist import *
 from File.FileMng.FileRemove.fileremove import *
 from File.FileMng.FileRename.filerename import *
 from File.FileMng.VarRename.varrename import *
+from Program.InfoProgram.infoprogram import *
 
 while True:
-    process=str(input('İslem giriniz: '))
+    process=str(input('Enter The Process: '))
 
     if process=="FileAdd":
         FileAdd()
@@ -29,4 +30,7 @@ while True:
         continue
     elif process=="VarRename":
         VarRename()
+        continue
+    elif process=="InfoProgram":
+        InfoProgram()
         continue
