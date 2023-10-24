@@ -8,7 +8,7 @@ global name,ver,ver_type,about,hlp,author,authorwebsite
 name,ver,ver_type,about,hlp,author,authorwebsite=str(),str(),str(),str(),str(),str(),str()
 name="PyTerm"
 ver="1.0"
-ver_type="BETA_2"
+ver_type="BETA_2_1"
 about="PyTerm 1.0 Beta By LinuxUsersLinuxMint"
 hlp="/Help/*.*"
 author="LinuxUsersLinuxMint"

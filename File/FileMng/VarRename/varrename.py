@@ -14,8 +14,8 @@ def VarRename():
     yes_no=str(input('{0} Değişkenini {1} Değişkeni İle Yeniden Adlandırma Yapmak Istediginizden Emin Misiniz? (Y / N): '.format(Old_var_Path,Rename_var_Path)))
     if yes_no=="Y" or yes_no=="Yes" or yes_no=="y" or yes_no=="yes":
         time.sleep(2)
-        file_path("{0}". format(Rename_var_Path))
-        del file_path("{0}". format(Old_var_Path))
+        file_path["{0}". format(Rename_var_Path)]
+        del file_path["{0}". format(Old_var_Path)]
     elif yes_no=="N" or yes_no=="No" or yes_no=="n" or yes_no=="no":
         exit()
     else:
