@@ -5,12 +5,17 @@
 # Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 # A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 import os
+import time
 
 operating_system=str(input('Enter Your Operating System (Windows/Linux/macOS): '))
 
 if operating_system=="Linux" or operating_system=="linux" or operating_system=="MacOS" or operating_system=="macOS":
     os.system("sudo su")
-    os.system("/LxProgram/PyTerm/PyTerm")
+    py_ver_type=str(input('Python Version Type (Python/Python3/2): '))
+    time.sleep(2)
+    os.system("{0} /LxProgram/PyTerm/PyTerm". format(py_ver_type))
 elif operating_system=="Windows":
     os.system("cls")
-    os.system("C:\LxProgram\PyTerm\PyTerm")
+    py_vr_type=str(input('Python Version Type (Python/Python3/2): '))
+    time.sleep(2)
+    os.system("{0} C:\LxProgram\PyTerm\PyTerm". format(py_vr_type))

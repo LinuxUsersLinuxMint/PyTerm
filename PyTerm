@@ -12,6 +12,7 @@ from File.FileMng.FileRemove.fileremove import *
 from File.FileMng.FileRename.filerename import *
 from File.FileMng.VarRename.varrename import *
 from Program.InfoProgram.infoprogram import *
+from Program.PyTempClear.pytempclear import *
 
 while True:
     process=str(input('Enter The Process: '))
@@ -34,3 +35,8 @@ while True:
     elif process=="InfoProgram":
         InfoProgram()
         continue
+    elif process=="PyTempClear":
+        #PyTempClear()
+        continue
+    elif process=="exit":
+        exit()

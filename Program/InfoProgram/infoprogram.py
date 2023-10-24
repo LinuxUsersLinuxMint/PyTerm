@@ -7,17 +7,25 @@
 from File.filePath.filePath import *
 from File.FileMng.FileList.filelist import *
 from InfoProject.info import *
+import time
 
 def InfoProgram():
     global select
     select=str(input('Enter the program you want to see info about: '))
     if select=="info":
+        print("[PyTerm]: Program Info...")
+        time.sleep(2)
         print("Program Name: {0}". format(name))
         print("Program Version: {0}". format(ver))
         print("Program Type: {0}". format(ver_type))
+        print("Program File Path: {0}". format(ProgramFilePath))
         print("Program About: {0}". format(about))
         print("Program Help Directory: {0}". format(hlp))
         print("Program Author: {0}". format(author))
         print("Program Author Website: {0}". format(authorwebsite))
+        time.sleep(2)
+        print("[PyTerm]: Program Info Completed...")
     elif select=="exit":
         exit()
+    else:
+        print("Invalid command...!")
