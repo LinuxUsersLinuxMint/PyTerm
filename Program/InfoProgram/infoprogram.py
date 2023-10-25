@@ -5,7 +5,6 @@
 # Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 # A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 from File.filePath.filePath import *
-from File.FileMng.FileList.filelist import *
 from InfoProject.info import *
 import time
 
@@ -21,6 +20,7 @@ def InfoProgram():
         print("Program File Path: {0}". format(ProgramFilePath))
         print("Program About: {0}". format(about))
         print("Program Help Directory: {0}". format(hlp))
+        print("Program Help Website: {0}". format(hlp_website))
         print("Program Author: {0}". format(author))
         print("Program Author Website: {0}". format(authorwebsite))
         time.sleep(2)

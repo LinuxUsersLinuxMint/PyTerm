@@ -1,0 +1,1 @@
+sudo cp runpyterm.sh /usr/bin/

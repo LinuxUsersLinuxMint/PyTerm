@@ -17,6 +17,7 @@ def FileRemove():
   elif yes_no=="N":
     time.sleep(2)
     del file_path["{0}". format(Remove_file_Path)]
+    time.sleep(1)
     del file_path["{0}". format(Remove_File_var)]
   else:
     print("Invalid Command...!")
