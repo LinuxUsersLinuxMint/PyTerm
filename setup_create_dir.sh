@@ -13,4 +13,7 @@ mkdir LxProgram/PyTerm/InfoProject
 mkdir LxProgram/PyTerm/Program
 mkdir LxProgram/PyTerm/Program/InfoProgram
 mkdir LxProgram/PyTerm/Program/PyTempClear
+mkdir LxProgram/PyTerm/Program/PyTermUpdateAssistans
+mkdir LxProgram/PyTerm/Program/Help
+mkdir LxProgram/PyTerm/Program/RunProgram
 chmod a+x LxProgram

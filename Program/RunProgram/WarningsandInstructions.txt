@@ -1,0 +1,21 @@
+                                                    -Warnings and Instructions for RunProgram.py and RunProgram() Function-
+
+Writer: LinuxUsersLinuxMint
+File_Version: 1.0
+Program Version: 1.0
+Program Version Type: BETA
+BETA Version: BETA_2_3
+
+Warnings: LinuxUsersLinuxMint does not accept any responsibility for any problems that may occur during the execution of RunProgram.py or the RunProgram() function.
+Please run RunProgram.py or RunProgram() function in the test program or on the test computer. Otherwise, LinuxUsersLinuxMint accepts no responsibility.
+
+
+Instructions: If you are going to run RunProgram.py or RunProgram() function. First you need to create a program path and program variable using the "FileAdd" function.
+
+Creating path and program variables using "FileAdd" Function:
+ * First, start the FileAdd() function by typing "FileAdd" in the PyTerm command line.
+ * Secondly, create a path.
+   Example:
+    path: /LxProgram/PyTerm/PyTerm.file_extension  // will run does not have a file extension, just enter the program path and the name of the file to be run. Example: /LxProgram/PyTerm/PyTerm
+    path_var: path_pyterm // The program variable name must comply with Python variable name rules. Otherwise, the variable cannot be created.
+ * Thirdly, type "beta_runprogram" in the PyTerm command line.

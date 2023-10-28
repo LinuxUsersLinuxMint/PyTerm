@@ -1,7 +1,13 @@
 #!/usr/bin/python3
+# Copyright© 2023 LinuxUsersLinuxMint
+# PyTerm Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
+# PyTerm All Rights Reserved under the GPL(General Public License).
+# Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
+# A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
+
 import time, os
 
-yes_no=str(input('Are you sure you want to install PyTerm? (Y / N): '))
+yes_no=str(input('Are you sure you want to install PyTerm? (Y / N / Uninstall): '))
 
 if yes_no=="N" or yes_no=="n" or yes_no=="No" or yes_no=="no" or yes_no=="NO":
     exit()
@@ -33,6 +39,11 @@ elif yes_no=="Y" or yes_no=="y" or yes_no=="Yes" or yes_no=="yes" or yes_no=="YE
     time.sleep(2)
     print("[PyTerm_Setup_Environment]: PyTerm installation step completed...")
     time.sleep(2)
+    exit()
+elif yes_no=="Uninstall" or yes_no=="uninstall":
+    print("Uninstall PyTerm...")
+    time.sleep(2)
+    os.system("./uninstall_pyterm.sh")
     exit()
 else:
     print("Invalid PSE (Python Setup Environment) Argument...")

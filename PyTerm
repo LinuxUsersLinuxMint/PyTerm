@@ -13,6 +13,8 @@ from File.FileMng.FileRename.filerename import *
 from File.FileMng.VarRename.varrename import *
 from Program.InfoProgram.infoprogram import *
 from Program.PyTempClear.pytempclear import *
+from Program.PyTermUpdateAssistans.pytermupdateass import *
+from Program.Help.help import *
 
 while True:
     process=str(input('Enter The Process: '))
@@ -37,6 +39,12 @@ while True:
         continue
     elif process=="PyTempClear":
         PyTempClear()
+        continue
+    elif process=="PyTermUpdateAssistans":
+        PyTermUpdateAssistans()
+        continue
+    elif process=="Help":
+        Help()
         continue
     elif process=="exit":
         exit()

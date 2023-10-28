@@ -20,3 +20,11 @@ cp Program/InfoProgram/infoprogram.py LxProgram/PyTerm/Program/InfoProgram/
 chmod a+x LxProgram/PyTerm/Program/InfoProgram/infoprogram.py
 cp Program/PyTempClear/pytempclear.py LxProgram/PyTerm/Program/PyTempClear/
 chmod a+x LxProgram/PyTerm/Program/PyTempClear/pytempclear.py
+cp Program/PyTermUpdateAssistans/pytermupdateass.py LxProgram/PyTerm/Program/PyTermUpdateAssistans
+chmod a+x LxProgram/PyTerm/Program/PyTermUpdateAssistans/pytermupdateass.py
+cp Program/Help/help.py LxProgram/PyTerm/Program/Help
+chmod a+x LxProgram/PyTerm/Program/Help/help.py
+cp Program/RunProgram/runprogram.py LxProgram/PyTerm/Program/RunProgram
+chmod a+x LxProgram/PyTerm/Program/RunProgram/runprogram.py
+cp Program/RunProgram/WarningsandInstruction.txt LxProgram/PyTerm/Program/RunProgram
+chmod a+x LxProgram/PyTerm/Program/RunProgram/WarningsandInstruction.txt
