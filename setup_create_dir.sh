@@ -16,4 +16,7 @@ mkdir LxProgram/PyTerm/Program/PyTempClear
 mkdir LxProgram/PyTerm/Program/PyTermUpdateAssistans
 mkdir LxProgram/PyTerm/Program/Help
 mkdir LxProgram/PyTerm/Program/RunProgram
+mkdir LxProgram/PyTerm/Program/ConfigSoftware
+mkdir LxProgram/PyTerm/Program/ConfigSoftware/ConfigSuperUser
+mkdir LxProgram/PyTerm/Program/ConfigSoftware/ConfigUpdate
 chmod a+x LxProgram

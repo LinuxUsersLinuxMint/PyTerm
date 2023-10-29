@@ -6,6 +6,6 @@
 # A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 
 def Help():
-    print("PyTerm BETA_2_3 v1.0")
+    print("PyTerm BETA_3 v1.0")
     print("Command: \n")
-    print("FileAdd\nFileList\nFileRemove\nFileRename\nVarRename\nInfoProgram\nPyTempClear\nPyTermUpdateAssistans\nHelp")
+    print("FileAdd\nFileList\nFileRemove\nFileRename\nVarRename\nInfoProgram\nPyTempClear\nPyTermUpdateAssistans\nHelp\nConfig\ncfg_super_usr_\ncfg_update_")

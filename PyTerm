@@ -15,6 +15,8 @@ from Program.InfoProgram.infoprogram import *
 from Program.PyTempClear.pytempclear import *
 from Program.PyTermUpdateAssistans.pytermupdateass import *
 from Program.Help.help import *
+from Program.ConfigSoftware.ConfigSuperUser.configsu import *
+from Program.ConfigSoftware.ConfigUpdate.cfg_update import *
 
 while True:
     process=str(input('Enter The Process: '))
@@ -45,6 +47,15 @@ while True:
         continue
     elif process=="Help":
         Help()
+        continue
+    elif process=="Config":
+        config_process=str(input('Which config do you want to edit?: '))
+        if config_process=="cfg_update_":
+            cfg_update_()
+            continue
+        elif config_process=="cfg_super_usr_":
+            cfg_super_user_()
+            continue
         continue
     elif process=="exit":
         exit()

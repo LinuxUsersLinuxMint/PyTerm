@@ -28,3 +28,9 @@ cp Program/RunProgram/runprogram.py LxProgram/PyTerm/Program/RunProgram
 chmod a+x LxProgram/PyTerm/Program/RunProgram/runprogram.py
 cp Program/RunProgram/WarningsandInstruction.txt LxProgram/PyTerm/Program/RunProgram
 chmod a+x LxProgram/PyTerm/Program/RunProgram/WarningsandInstruction.txt
+cp Program/ConfigSoftware/ConfigSuperUser/configsu.py LxProgram/PyTerm/Program/ConfigSoftware/ConfigSuperUser
+chmod a+x LxProgram/PyTerm/Program/ConfigSoftware/ConfigSuperUser/configsu.py
+cp Program/ConfigSoftware/ConfigUpdate/cfg_update.py LxProgram/PyTerm/Program/ConfigSoftware/ConfigUpdate
+chmod a+x LxProgram/PyTerm/Program/ConfigSoftware/ConfigUpdate/cfg_update.py
+cp software.cfgpt LxProgram/
+chmod a+x LxProgram/software.cfgpt

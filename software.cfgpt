@@ -1,0 +1,18 @@
+[PyTerm_Software_Info]
+software_name=PyTerm
+software_programming_lang=Python
+programming_language_ver=3 / Python3
+software_file_ext=.sh, .py, .cfgpt
+software_ver=1.0
+software_ver_type=BETA_3
+
+
+[PyTerm_Software_Config]
+cfg_update_status=0
+cfg_update_software_name=PyTerm
+software_addr_type=git
+software_addr=https://github.com/LinuxUsersLinuxMint/PyTerm
+
+[PyTerm_User_Config]
+cfg_super_usr_status=0
+cfg_super_usr_com=sudo_su
