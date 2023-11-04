@@ -1,3 +1,4 @@
+#!/usr/bin/sh
 mkdir LxProgram
 mkdir LxProgram/PyTerm
 mkdir LxProgram/PyTerm/File
@@ -19,4 +20,7 @@ mkdir LxProgram/PyTerm/Program/RunProgram
 mkdir LxProgram/PyTerm/Program/ConfigSoftware
 mkdir LxProgram/PyTerm/Program/ConfigSoftware/ConfigSuperUser
 mkdir LxProgram/PyTerm/Program/ConfigSoftware/ConfigUpdate
+mkdir LxProgram/PyTerm/Program/Compatibleos
+mkdir LxProgram/PyTerm/File/FileMng/Filedictformat
+mkdir LxProgram/PyTerm/Library
 chmod a+x LxProgram

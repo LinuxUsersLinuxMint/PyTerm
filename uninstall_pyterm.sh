@@ -1,1 +1,2 @@
-rm -rf LxProgram/
+#!/usr/bin/sh
+rm -rf /LxProgram

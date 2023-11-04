@@ -1,3 +1,4 @@
+#!/usr/bin/sh
 cp PyTerm LxProgram/PyTerm/
 chmod a+x LxProgram/PyTerm/PyTerm
 cp File/filePath/filePath.py LxProgram/PyTerm/File/filePath/
@@ -26,11 +27,17 @@ cp Program/Help/help.py LxProgram/PyTerm/Program/Help
 chmod a+x LxProgram/PyTerm/Program/Help/help.py
 cp Program/RunProgram/runprogram.py LxProgram/PyTerm/Program/RunProgram
 chmod a+x LxProgram/PyTerm/Program/RunProgram/runprogram.py
-cp Program/RunProgram/WarningsandInstruction.txt LxProgram/PyTerm/Program/RunProgram
-chmod a+x LxProgram/PyTerm/Program/RunProgram/WarningsandInstruction.txt
+cp Program/RunProgram/WarningsandInstructions.txt LxProgram/PyTerm/Program/RunProgram
+chmod a+x LxProgram/PyTerm/Program/RunProgram/WarningsandInstructions.txt
 cp Program/ConfigSoftware/ConfigSuperUser/configsu.py LxProgram/PyTerm/Program/ConfigSoftware/ConfigSuperUser
 chmod a+x LxProgram/PyTerm/Program/ConfigSoftware/ConfigSuperUser/configsu.py
 cp Program/ConfigSoftware/ConfigUpdate/cfg_update.py LxProgram/PyTerm/Program/ConfigSoftware/ConfigUpdate
 chmod a+x LxProgram/PyTerm/Program/ConfigSoftware/ConfigUpdate/cfg_update.py
-cp software.cfgpt LxProgram/
-chmod a+x LxProgram/software.cfgpt
+cp software.cfgpt LxProgram/PyTerm
+chmod a+x LxProgram/PyTerm/software.cfgpt
+cp Program/Compatibleos/compatibleos.py LxProgram/PyTerm/Program/Compatibleos
+chmod a+x LxProgram/PyTerm/Program/Compatibleos/compatibleos.py
+cp File/FileMng/Filedictformat/filedictformat.py LxProgram/PyTerm/File/FileMng/Filedictformat
+chmod a+x LxProgram/PyTerm/File/FileMng/Filedictformat/filedictformat.py
+cp Library/pytermlibrary.py LxProgram/PyTerm/Library
+chmod a+x LxProgram/PyTerm/Library/pytermlibrary.py
