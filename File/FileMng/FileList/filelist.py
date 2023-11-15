@@ -7,10 +7,7 @@
 from File.filePath.filePath import *
 import time
 
-def FileList(file_list):
-    file_list=file_list
-    file_list=str(input('Dictionary name you want to list?: '))
-    time.sleep(2)
+def FileList():
     print("[PyTerm]: File Listing...")
     time.sleep(2)
-    print(file_list)
+    print(file_path)

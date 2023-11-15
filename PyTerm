@@ -6,41 +6,40 @@
 # Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 # A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 from Library.pytermlibrary import *
-from Recovery.recovery import *
 
 while True:
-    process=str(input('PyTerm> '))
+    process=str(input('Enter The Process: '))
 
     if process=="FileAdd":
-            FileAdd()
-            continue
+        FileAdd()
+        continue
     elif process=="FileList":
-            FileList()
-            continue
+        FileList()
+        continue
     elif process=="FileRemove":
-            FileRemove()
-            continue
+        FileRemove()
+        continue
     elif process=="FileRename":
-            FileRename()
-            continue
+        FileRename()
+        continue
     elif process=="VarRename":
-            VarRename()
-            continue
+        VarRename()
+        continue
     elif process=="InfoProgram":
-            InfoProgram()
-            continue
+        InfoProgram()
+        continue
     elif process=="PyTempClear":
-            PyTempClear()
-            continue
+        PyTempClear()
+        continue
     elif process=="PyTermUpdateAssistans":
-            PyTermUpdateAssistans()
-            continue
+        PyTermUpdateAssistans()
+        continue
     elif process=="RunProgram":
-            beta_runprogram()
-            continue
+        beta_runprogram()
+        continue
     elif process=="Help":
-            Help()
-            continue
+        Help()
+        continue
     elif process=="Config":
         config_process=str(input('Which config do you want to edit?: '))
         if config_process=="cfg_update_":
@@ -56,6 +55,3 @@ while True:
         continue
     elif process=="exit":
         exit()
-    elif process=="Recovery":
-        OpenMode()
-        continue    

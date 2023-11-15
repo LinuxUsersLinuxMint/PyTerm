@@ -9,9 +9,9 @@ global name,ver,ver_type,about,hlp,author,authorwebsite
 name,ver,ver_type,about,hlp,hlp_website,author,authorwebsite=str(),str(),str(),str(),str(),str(),str(),str()
 name="PyTerm "
 ver="v1.0 "
-ver_type="Stable BETA_1"
-about="PyTerm Stable BETA_1 1.0 By LinuxUsersLinuxMint"
+ver_type="Stable BETA"
+about="PyTerm Stable BETA 1.0 By LinuxUsersLinuxMint"
 hlp="/Program/Help/*.*"
-hlp_website="https://linuxuserslinuxmint.github.io/support/pyterm/support.html (not available)"
+hlp_website="linuxuserslinuxmint.github.io/support/pyterm/support.html (not available)"
 author="LinuxUsersLinuxMint"
-authorwebsite="https://linuxuserslinuxmint.github.io"
+authorwebsite="linuxuserslinuxmint.github.io"

@@ -16,7 +16,7 @@ def cfg_update_():
     if software_addr_type=="git" or software_addr_type=="Git":
         software_addr=input('Software Address (https://github.com/usr_name/repo_name): ')
         time.sleep(2)
-        if f_ext_cfgpt()!="-1":
+        if f_ext_cfgpt!="-1":
             print("{0} Software Update...". format(cfg_update_software_name))
             time.sleep(2)
             os.system("git clone {0}". format(software_addr))
@@ -28,7 +28,7 @@ def cfg_update_():
     elif software_addr_type=="web_site" or software_addr_type=="Web Site" or software_addr_type=="web site":
         software_addr==input('Software Address (https://website_name.domain/software_folder/software.cfgpt):  ')
         time.sleep(2)
-        if f_ext_web_cfgpt()!="-1":
+        if f_ext_web_cfgpt!="-1":
             print("")
 
 def f_ext_cfgpt():
