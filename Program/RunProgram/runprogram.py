@@ -14,12 +14,12 @@ def beta_runprogram():
    program_opt = str(input('Will you start the program with path or program variable?'))
 
    if program_opt=="path" or program_opt=="PATH" or program_opt=="Path":
-        beta_runprogram_path = str(input('Program path to be run (example: LxProgram/PyTerm/PyTerm): '))
+        beta_runprogram_path = str(input('Program path to be run (example: /LxProgram/PyTerm/PyTerm): '))
         time.sleep(3)
-        os.system("./{0}". format(beta_runprogram_path))
+        os.system("{0}". format(beta_runprogram_path))
    elif program_opt=="Program_var" or program_opt=="var" or program_opt=="Program_variable":
         beta_runprogram = str(input("Program variable to be run (example: path_programname) : "))
         time.sleep(2)
-        os.system("./{0}". format(beta_runprogram))
+        os.system("{0}". format(beta_runprogram))
    else:
         print("Invalid RunProgram Argument...")
