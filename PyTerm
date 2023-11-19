@@ -53,5 +53,7 @@ while True:
     elif process=="Compatible_os" or process=="Compatible OS":
         compatible_os()
         continue
+    elif process=="LxProgram":
+        # not working
     elif process=="exit":
         exit()
